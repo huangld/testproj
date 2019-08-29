@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(Feeder.class)
-@Database(id = "db", url = "jdbc:mysql://192.168.1.15:3308/portal", 
-        driver = "com.mysql.jdbc.Driver", user = "portal", password = "portal")
+@Database(id = "db", url = "jdbc:mysql://ip:port/database", 
+        driver = "com.mysql.jdbc.Driver", user = "xxx", password = "xxx")
 public class DatabaseTest {  
     static DBSystem db;
     
